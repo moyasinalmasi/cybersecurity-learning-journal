@@ -1,0 +1,22 @@
+# Environment variables and secrets
+.env
+.env.*
+secrets/
+credentials/
+
+# Private hunting information
+private/
+targets-private/
+reports-private/
+screenshots-private/
+
+# Burp Suite and captured traffic
+*.burp
+*.har
+*.xml
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
